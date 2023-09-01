@@ -277,6 +277,7 @@ ul {
 .icons-container {
   display: flex;
   gap: 24px;
+  justify-content: center;
 }
 .instag {
   fill: #f4f4fd;
