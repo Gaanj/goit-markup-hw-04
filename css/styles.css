@@ -310,6 +310,8 @@ ul {
   margin: 0 auto;
   background-color: #bdbdbd;
   overflow: hidden;
+  
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .overlay {
   position: absolute;
@@ -335,9 +337,7 @@ ul {
   letter-spacing: 0.32px;
 }
 .product-box:hover .overlay {
-  transform: translatey(0);
-  
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  transform: translatey(0); 
 }
 .portfolio-title {
   margin-top: 0;
