@@ -273,8 +273,6 @@ ul {
   display: flex;
   width: 40px;
   height: 40px;
-  justify-content: center;
-  align-items: center;
 }
 .icons-container {
   display: flex;
@@ -290,6 +288,11 @@ ul {
   height: 100%;
   background-color: #4d5ae5;
   border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.icon-a:hover, .icon-a:focus{
+  background-color: #31d0aa;
 }
 .section-lv {
   padding-top: 120px;
