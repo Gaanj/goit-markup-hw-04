@@ -286,14 +286,14 @@ ul {
   fill: #f4f4fd;
   line-height: 0;
 }
-.icon-a{
-display: flex;
+.icon-a {
+  display: flex;
 }
 .section-lv {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.product-box{
+.product-box {
   position: relative;
   width: 300px;
   height: 300px;
@@ -318,10 +318,10 @@ display: flex;
   font-size: 18px;
   width: 296px;
   font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; /* 150% */
-letter-spacing: 0.32px; 
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
 }
 .product-box:hover .overlay {
   transform: translatey(0);
@@ -348,8 +348,10 @@ letter-spacing: 0.32px;
   flex-wrap: wrap;
   row-gap: 48px;
 }
-.portfolio-li:hover{
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+.portfolio-li:hover {
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .product-name {
   padding: 32px 16px;
@@ -396,9 +398,10 @@ h2 {
   padding: 100px 0;
   display: flex;
 }
-.footer-container{
+.footer-container {
   display: flex;
   gap: 16px;
+  align-items: baseline;
 }
 .logo-footer {
   color: #4d5ae5;
@@ -422,8 +425,8 @@ h2 {
   margin-top: 0;
   margin-bottom: 0;
 }
-.social-footer{
-  color: var(--WHITE, #FFF);
+.social-footer {
+  color: var(--WHITE, #fff);
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -432,6 +435,6 @@ h2 {
   letter-spacing: 0.32px;
   margin-bottom: 16px;
 }
-.footer-social-container{
-  margin-left: 120px;
+.logo-container {
+  margin-right: 120px;
 }
