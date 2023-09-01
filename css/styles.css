@@ -438,3 +438,7 @@ h2 {
 .logo-container {
   margin-right: 120px;  
 }
+.icons-footer-container {
+  display: flex;
+  gap: 16px;
+}
