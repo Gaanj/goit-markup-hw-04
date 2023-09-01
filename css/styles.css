@@ -316,6 +316,12 @@ display: flex;
   padding: 40px 32px 164px 32px;
   margin: 0;
   font-size: 18px;
+  width: 296px;
+  font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: 0.32px; 
 }
 .product-box:hover .overlay {
   transform: translatey(0);
