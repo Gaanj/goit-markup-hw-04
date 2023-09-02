@@ -76,6 +76,7 @@ ul {
   gap: 40px;
 }
 .tabs {
+  position: relative;
   color: #434455;
   text-decoration: none;
   padding: 24px 0;
