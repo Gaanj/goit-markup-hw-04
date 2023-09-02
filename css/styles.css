@@ -126,8 +126,7 @@ ul {
   gap: 40px;
 }
 .section-hero {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin:auto;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
