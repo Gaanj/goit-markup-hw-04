@@ -76,9 +76,8 @@ ul {
   gap: 40px;
 }
 .tabs {
-  position: relative;
+  color: #434455;
   text-decoration: none;
-  color: #404bbf;
   padding: 24px 0;
   display: block;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -93,10 +92,15 @@ ul {
   content: '';
   position: absolute;
   left: 0;
+  width: 100%;
   bottom: -1px;
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
+}
+.current{
+  position: relative;
+  color: #404bbf;
 }
 .contact-li:hover {
   color: #404bbf;
@@ -334,8 +338,6 @@ ul {
 }
 .product-box {
   position: relative;
-  width: 300px;
-  height: 300px;
   margin: 0 auto;
   background-color: #bdbdbd;
   overflow: hidden;
@@ -366,7 +368,7 @@ ul {
   font-weight: 400;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.product-box:hover .overlay {
+.portfolio-li:hover .overlay {
   transform: translatey(0);
 }
 .portfolio-title {
@@ -386,7 +388,6 @@ ul {
 }
 .porttfolio-ul {
   display: flex;
-  justify-content: space-between;
   column-gap: 24px;
   flex-wrap: wrap;
   row-gap: 48px;
